@@ -1,0 +1,1 @@
+In `FLORIS_input_jensen_1x3`, the information about the wind turbine(s) is loaded from the FLORIS file `FLORIS_input_jensen_1x3.yaml`.

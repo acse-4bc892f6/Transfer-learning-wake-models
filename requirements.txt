@@ -1,0 +1,10 @@
+floris
+py_wake
+torch
+numpy >= 1.13.0
+matplotlib
+sklearn
+pandas
+pytest
+torch-summary
+attrs==21.4.0

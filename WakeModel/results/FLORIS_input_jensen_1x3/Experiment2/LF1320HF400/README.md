@@ -1,0 +1,3 @@
+`pwpe_BoxPlot_10.png` and `pwpe_BoxPlot_100.png` are box and whisker plots from the datasets `pwpe_dataset_10.csv` and `pwpe_dataset_100.csv` respectively. The number represents the random seed used to generate testing set for the computation of pixel-wise percentage error.
+
+Random seed is 123 by default. `pwpe_dataset.csv` is computed based on a testing set generated using randon seed 123, and `pwpe_BoxPlot.png` is the box and whisker plot from this dataset.
