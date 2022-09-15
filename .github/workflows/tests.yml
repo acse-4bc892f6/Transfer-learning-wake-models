@@ -1,0 +1,30 @@
+name: tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-checker:
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        os: ["ubuntu-20.04"]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: init env
+        run: |
+          pip install -r requirements.txt
+      - name: running tests using pytest
+        run: |
+          cd WakeModel/tests
+          pytest LoadFlorisData.py -W ignore::FutureWarning
+          pytest LoadDataset.py
+          pytest ModelParams.py -W ignore::FutureWarning
