@@ -1,7 +1,7 @@
-<!-- | workflow | status |
+| workflow | status |
 | - | - |
-| `flake8` | [![flake8](https://github.com/ese-msc-2021/irp-myw1618/actions/workflows/flake8.yml/badge.svg)](https://github.com/ese-msc-2021/irp-myw1618/actions/workflows/flake8.yml) |
-| `tests` | [![final-report](https://github.com/ese-msc-2021/irp-myw1618/actions/workflows/tests.yml/badge.svg)](https://github.com/ese-msc-2021/irp-myw1618/actions/workflows/tests.yml) | -->
+| `flake8` | [![flake8](https://github.com/acse-4bc892f6/mftl-turbine-wakes/actions/workflows/flake8.yml/badge.svg)](https://github.com/acse-4bc892f6/mftl-turbine-wakes/actions/workflows/flake8.yml) |
+| `tests` | [![final-report](https://github.com/acse-4bc892f6/mftl-turbine-wakes/actions/workflows/tests.yml/badge.svg)](https://github.com/acse-4bc892f6/mftl-turbine-wakes/actions/workflows/tests.yml) |
 
 # How to run WakeModel
 
